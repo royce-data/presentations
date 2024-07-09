@@ -202,10 +202,9 @@ it might be beneficial to start now
 ## What can you do right now? {.smaller}
 
 4. Share your code and scripts on GitHub (with appropriate reuse licensing)
-   - With accessible and rich documentation
-     - (or just good enough so that anyone can understand!) 
+   - With accessible and rich documentation (or just good enough so that anyone can understand!) 
      - They might just help someone else
-5. Have a paper published closed access?
+1. Have a paper published closed access?
    - Never too late to share the *Author Accepted Manuscript* as a pre-print on a public repository. Like:
      1. Zenodo (general purpose)
      2. Figshare (general purpose)
