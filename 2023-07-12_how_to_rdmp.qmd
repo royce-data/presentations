@@ -1,6 +1,7 @@
 ---
 title: "How to write a research data management plan"
 author: "Stavrina Dimosthenous"
+institute: Henry Royce Institute, University of Manchester
 date: 2023-07-12
 date-modified: 2024-06-27
 bibliography: _include/bibliographies/2023-05-01_jabref_bib_stavrina_dimosthenous.bib
