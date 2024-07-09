@@ -1,0 +1,66 @@
+/*-- scss:defaults --*/
+$royce-grey:#555555;
+
+$body-bg: rgba(255,255,255,1);
+$body-color: $royce-grey;
+
+$link-color: rgb(255,209,0);
+
+$royce-grey-faded: lighten(#555555, 20%);
+
+// Presentation Heading
+
+$presentation-heading-color: rgb(0,161,154);
+// $presentation-heading-font:
+
+/*-- scss:rules --*/
+
+
+.reveal .slide-background-content {
+    background-image: url('_include/royce_banner.svg'), url('_include/HenryRoyceInstitute_MasterLogo_RGB_Grey (MAIN).png');;
+    background-repeat: no-repeat, no-repeat;;
+    vertical-align: bottom, top;
+    height: 100%, 10%;
+    width: 100%, 10%;
+    background-position: 0% 100%, 100% 0%;
+    background-size: contain, 15%;
+}
+
+.reveal .quarto-title-block .slide-background-content {
+    background-image: url('_include/RoyceBorder.svg'), url('_include/HenryRoyceInstitute_MasterLogo_RGB_Grey (MAIN).png');
+    background-repeat: no-repeat, no-repeat;
+    vertical-align: bottom, top;
+    height: 85%, 10%;
+    width: 85%, 10%;
+    background-position: 0% 100%, 100% 0%;
+    background-size: contain, 15%;
+}
+
+.big_emphatic {
+    @extend h3;
+    color: $royce-grey !important; 
+}
+
+.faded-smaller {
+    color: $royce-grey-faded;
+    font-size: smaller;
+    margin-left: 5%;
+}
+
+.footer {
+    display: block !important;
+    position: absolute !important;
+    bottom: 3% !important;
+    right: 0 !important;
+    text-align: right !important;
+    font-size: 18px !important;
+    z-index: 2 !important;
+    width: 60% !important;
+}
+
+.restyleh {
+    color: $royce-grey;
+    text-align: center; 
+    vertical-align: center;
+    padding: 25% 0% 0% 0%;
+}
