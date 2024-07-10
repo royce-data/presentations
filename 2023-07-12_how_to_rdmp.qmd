@@ -29,7 +29,7 @@ format:
           code-overflow: wrap
         resources: _include/*
         include-in-header: 
-          file: sources.html
+          file: _include/modules/sources.html
 ---
 
 ## What is a data management plan?
@@ -81,25 +81,10 @@ A DMP will outline all the stages of a project's data lifecycle ***before*** dat
 
 ## When to write a Research DMP?
 
-<div class="cell" style="display:block; margin:0 0 0 25%; height:45%; width:45%;">
+<div class="cell" style="display:block; margin:0 0 0 0; height:45%; width:45%;">
 <div class="cell-output-display">
 <div id="when-rmdp">
-<div>
-<pre class="mermaid" data-label="when-rmdp">
-  flowchart TB
-    A[Do I have a data managment plan?]
-    A --Yes--> B[Am I starting a new experiment?]
-    A --No--> C(("Write|Update\n my DMP"))
-    B --No--> D[Am I changing where I store my research data?]
-    B --Yes--> C
-    D --No--> E[Am I changing my processing methods?]
-    D --Yes--> C
-    E --Yes--> C
-    E --No--> F[Is my data retention/preservation policy changing?]
-    F --Yes--> C
-    F --No--> G((Do nothing))
-</pre>
-</div>
+<img src="_include/when_to_write_update_rdmp-1.svg" style="margin-left: 20%;">
 </div>
 </div>
 </div>
