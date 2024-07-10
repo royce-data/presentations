@@ -13,3 +13,4 @@ _site
 *.code-workspace
 .DS_Store
 rdm_when.md
+mermaid_config.json
