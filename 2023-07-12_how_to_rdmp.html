@@ -8,7 +8,10 @@
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.54">
 
   <meta name="author" content="Stavrina Dimosthenous">
@@ -448,8 +451,8 @@ Stavrina Dimosthenous
 </section>
 <section id="when-to-write-a-research-dmp" class="slide level2">
 <h2>When to write a Research DMP?</h2>
-
-<img src="_include/when_to_write_update_rdmp-1.svg" style="margin-left: 20%; z-index:-3; width:70% !important;" class="r-stretch"></section>
+<p><a href="images/rdm_images/when_to_write_update_rdmp-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="images/rdm_images/when_to_write_update_rdmp-1.svg" style="width:60%;margin-left:20%;"></a> <!-- <img src="_include/when_to_write_update_rdmp-1.svg" style="margin-left: 20%; z-index:-3; width:70% !important;" id="when-rmdp"> --></p>
+</section>
 <section id="plan" class="slide level2 smaller">
 <h2>Plan</h2>
 <h3 id="gather-your-resources">Gather your resources</h3>
@@ -1137,6 +1140,38 @@ This work by <a rel="cc:attributionURL dct:creator" property="cc:attributionName
       }
     });
     </script>
+    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
     
 
 </body></html>
