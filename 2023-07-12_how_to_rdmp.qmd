@@ -81,7 +81,7 @@ A DMP will outline all the stages of a project's data lifecycle ***before*** dat
 
 ## When to write a Research DMP?
 
-<div class="cell" style="display:block; margin:0 0 0 25%; height:62%; width:62%;">
+<div class="cell" style="display:block; margin:0 0 0 25%; height:45%; width:45%;">
 <div class="cell-output-display">
 <div id="when-rmdp">
 <div>

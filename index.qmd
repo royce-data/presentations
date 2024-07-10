@@ -4,4 +4,4 @@ format: html
 editor: visual
 ---
 
-For extra resources check out the module on Blackboard, and the [RDMP Guide](https://royce-data.github.io/royce-data-handbook/rdm/rdmp-guide.html)
+For extra resources check the [RDMP Guide](https://royce-data.github.io/royce-data-handbook/rdm/rdmp-guide.html)
