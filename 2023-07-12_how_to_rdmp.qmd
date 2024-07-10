@@ -25,6 +25,7 @@ format:
           message: false
           warning: false
           echo: false
+        default-image-extension: svg
         code:
           code-overflow: wrap
         resources: _include/*
@@ -81,13 +82,8 @@ A DMP will outline all the stages of a project's data lifecycle ***before*** dat
 
 ## When to write a Research DMP?
 
-<div class="cell" style="display:block; margin:0 0 0 0; height:40%; width:40%;">
-<div class="cell-output-display">
-<div id="when-rmdp">
-<img src="_include/when_to_write_update_rdmp-1.svg" style="margin-left: 20%; z-index:-3; width:70% !important;">
-</div>
-</div>
-</div>
+![](images/rdm_images/when_to_write_update_rdmp-1.svg){.lightbox style="width:60%;margin-left:20%;"}
+<!-- <img src="_include/when_to_write_update_rdmp-1.svg" style="margin-left: 20%; z-index:-3; width:70% !important;" id="when-rmdp"> -->
 
 ## Plan{.smaller}
 
