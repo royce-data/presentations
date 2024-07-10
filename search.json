@@ -95,7 +95,7 @@
     "href": "2023-07-12_how_to_rdmp.html#when-to-write-a-research-dmp",
     "title": "How to write a research data management plan",
     "section": "When to write a Research DMP?",
-    "text": "When to write a Research DMP?\n\n\n\n\n  flowchart TB\n    A[Do I have a data managment plan?]\n    A --Yes--&gt; B[Am I starting a new experiment?]\n    A --No--&gt; C((\"Write|Update\\n my DMP\"))\n    B --No--&gt; D[Am I changing where I store my research data?]\n    B --Yes--&gt; C\n    D --No--&gt; E[Am I changing my processing methods?]\n    D --Yes--&gt; C\n    E --Yes--&gt; C\n    E --No--&gt; F[Is my data retention/preservation policy changing?]\n    F --Yes--&gt; C\n    F --No--&gt; G((Do nothing))"
+    "text": "When to write a Research DMP?"
   },
   {
     "objectID": "2023-07-12_how_to_rdmp.html#plan",
