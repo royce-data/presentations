@@ -204,12 +204,18 @@ it might be beneficial to start now
 4. Share your code and scripts on GitHub (with appropriate reuse licensing)
    - With accessible and rich documentation (or just good enough so that anyone can understand!) 
      - They might just help someone else
-1. Have a paper published closed access?
-   - Never too late to share the *Author Accepted Manuscript* as a pre-print on a public repository. Like:
+     - Need help choosing a software license?
+       - <https://choosealicense.com/>
+
+## What can you do right now? {.smaller}
+
+5. Have a paper published closed access?
+   - Never too late to share the *Author Accepted Manuscript* on a public repository. Like:
      1. Zenodo (general purpose)
      2. Figshare (general purpose)
      3. ResearchGate
      4. Check whether the journal you are publishing in has a pre-print to support *Green Open Access*
+    - And do not forget Creative Commons Licensing! 
 
 # Thank you {style="text-align:center;"}
 

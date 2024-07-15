@@ -199,10 +199,10 @@ Consider:
 
 Will determine:
 
+- Who will has rights to reuse it?
 - If the data will remain with the research group
 - How the data can be shared?
 - Where the data can be shared?
-- Who will have reuse rights to it?
 
 ## Share
 
