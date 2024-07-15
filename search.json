@@ -137,7 +137,7 @@
     "href": "2023-07-12_how_to_rdmp.html#collect-3",
     "title": "How to write a research data management plan",
     "section": "Collect",
-    "text": "Collect\n\nWhat Software do I need?\n\nDo I need specialised software to acquire and analyse the data?\nWhat type of file formats does the software I need export to?\nCan I convert acquired data to open file formats?\nHow will I acquire this software?\n\nFree and Open Source?\nLicensed?\n\n\nWhat support will I need from institutional resources (people)?\nWhat software will I be using to track samples?\n\nSample tracking software?\n\nWhat software will I be using to track experiments?\n\nElectronic laboratory notebooks?"
+    "text": "Collect\n\nWhat Software do I need?\n\nDo I need specialised software to acquire and analyse the data?\nWhat type of file formats does the software I need export to?\nCan I convert acquired data to open file formats?\nHow will I acquire this software?\n\nFree and Open Source? Paid license?\n\n\nWhat support will I need from institutional resources (people)?\nWhat software will I be using to track samples?\n\nSample tracking software?\n\nWhat software will I be using to track experiments?\n\nElectronic laboratory notebooks?"
   },
   {
     "objectID": "2023-07-12_how_to_rdmp.html#process",
