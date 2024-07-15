@@ -144,8 +144,7 @@ A DMP will outline all the stages of a project's data lifecycle ***before*** dat
   - What type of file formats does the software I need export to?
   - Can I convert acquired data to open file formats?
   - How will I acquire this software? 
-    - Free and Open Source?
-    - Licensed?
+    - Free and Open Source? Paid license?
 - What support will I need from institutional resources (people)?
 - What software will I be using to track samples?
   - Sample tracking software?
