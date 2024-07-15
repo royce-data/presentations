@@ -172,7 +172,7 @@
     "href": "2023-07-12_how_to_rdmp.html#share-1",
     "title": "How to write a research data management plan",
     "section": "Share",
-    "text": "Share\nConsider:\n\nWho owns the intellectual property rights to the data?\nPartner policy\nFunder policy\n\nWill determine:\n\nIf the data will remain with the research group\nHow the data can be shared?\nWhere the data can be shared?\nWho will have reuse rights to it?"
+    "text": "Share\nConsider:\n\nWho owns the intellectual property rights to the data?\nPartner policy\nFunder policy\n\nWill determine:\n\nWho will has rights to reuse it?\nIf the data will remain with the research group\nHow the data can be shared?\nWhere the data can be shared?"
   },
   {
     "objectID": "2023-07-12_how_to_rdmp.html#share-2",
@@ -305,6 +305,13 @@
     "href": "2024-07-01_open_research_in_practice_actionable_materials.html#what-can-you-do-right-now-1",
     "title": "Open Research in Practice",
     "section": "What can you do right now?",
-    "text": "What can you do right now?\n\nShare your code and scripts on GitHub (with appropriate reuse licensing)\n\nWith accessible and rich documentation (or just good enough so that anyone can understand!)\n\nThey might just help someone else\n\n\nHave a paper published closed access?\n\nNever too late to share the Author Accepted Manuscript as a pre-print on a public repository. Like:\n\nZenodo (general purpose)\nFigshare (general purpose)\nResearchGate\nCheck whether the journal you are publishing in has a pre-print to support Green Open Access"
+    "text": "What can you do right now?\n\nShare your code and scripts on GitHub (with appropriate reuse licensing)\n\nWith accessible and rich documentation (or just good enough so that anyone can understand!)\n\nThey might just help someone else\nNeed help choosing a software license?\n\nhttps://choosealicense.com/"
+  },
+  {
+    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#what-can-you-do-right-now-2",
+    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#what-can-you-do-right-now-2",
+    "title": "Open Research in Practice",
+    "section": "What can you do right now?",
+    "text": "What can you do right now?\n\nHave a paper published closed access?\n\nNever too late to share the Author Accepted Manuscript on a public repository. Like:\n\nZenodo (general purpose)\nFigshare (general purpose)\nResearchGate\nCheck whether the journal you are publishing in has a pre-print to support Green Open Access\n\nAnd do not forget Creative Commons Licensing!"
   }
 ]
