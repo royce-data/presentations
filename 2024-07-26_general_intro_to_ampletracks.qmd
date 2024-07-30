@@ -114,7 +114,7 @@ Perfect
 
 ## Ampletracks - philosophy
 
-![The Ampletracks GitHub repository](./images/ampletracks_presentation/ampletracks_github.png){.lightbox fig-align="center" style="width:75%;"}
+![The Ampletracks GitHub repository](./images/ampletracks_presentation/ampletracks_github.png){.lightbox fig-align="center" style="width:60%;"}
 
 ## Sample Tracking
 
@@ -135,11 +135,11 @@ Perfect
 - <strong>Record</strong> `parent` - `child` relationships (intrinsic)
 - <strong>Record</strong> to <strong>Record</strong> semantic relationships between different record types (extrinsic)
 - Graph view relationship visualisation
-  - Switch from intrinsic to extrinsic relationships (and back again)
+  - <span class='small-text'>Switch from intrinsic to extrinsic relationships (and back again)</span>
 
 ## Sample Tracking
 
-![](./images/ampletracks_presentation/graph_view.gif){.lightbox fig-align="center" style="width:85%;"}
+![](./images/ampletracks_presentation/graph_view.gif){.lightbox fig-align="center" style="width:75%;"}
 
 ## Sample Tracking
 
@@ -170,15 +170,15 @@ Perfect
 
 ## Sample Tracking
 
-::: {layout-ncol=2}
-![](./images/ampletracks_presentation/label_2224.png){.lightbox style="border: 5px solid; border-color: #555555; margin-left: 0%;width:70%"}
+::: {layout-ncol=2 }
+![](./images/ampletracks_presentation/label_2224.png){.lightbox style="border: 5px solid; border-color: #555555; margin-left: 0%;width:70%" fig-align="center"}
 
-![](./images/ampletracks_presentation/label_2225.png){.lightbox style="border: 5px solid; border-color: #555555; margin-right: 0%;width:70%"}
+![](./images/ampletracks_presentation/label_2225.png){.lightbox style="border: 5px solid; border-color: #555555; margin-right: 0%;width:70%" fig-align="center"}
 :::
 
 ## Sample Tracking
 
-![](./images/ampletracks_presentation/labels_printed.jpg){.lightbox style="width:45%;" fig-align="center"}
+![](./images/ampletracks_presentation/labels_printed.jpg){.lightbox style="width:35%;" fig-align="center"}
 
 ## Permissions and management {.smaller}
 
