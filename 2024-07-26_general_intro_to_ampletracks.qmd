@@ -171,9 +171,9 @@ Perfect
 ## Sample Tracking
 
 ::: {layout-ncol=2 }
-![](./images/ampletracks_presentation/label_2224.png){.lightbox style="border: 5px solid; border-color: #555555; margin-left: 0%;width:70%" fig-align="center"}
+![](./images/ampletracks_presentation/label_2224.png){.lightbox style="border: 5px solid; border-color: #555555; margin-left: 0%;width:65%" fig-align="center"}
 
-![](./images/ampletracks_presentation/label_2225.png){.lightbox style="border: 5px solid; border-color: #555555; margin-right: 0%;width:70%" fig-align="center"}
+![](./images/ampletracks_presentation/label_2225.png){.lightbox style="border: 5px solid; border-color: #555555; margin-right: 0%;width:65%" fig-align="center"}
 :::
 
 ## Sample Tracking
