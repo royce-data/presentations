@@ -135,7 +135,7 @@ Perfect
 - <strong>Record</strong> `parent` - `child` relationships (intrinsic)
 - <strong>Record</strong> to <strong>Record</strong> semantic relationships between different record types (extrinsic)
 - Graph view relationship visualisation
-  - <span class='small-text'>Switch from intrinsic to extrinsic relationships (and back again)</span>
+  - <span class='font-size:smaller;'>Switch from intrinsic to extrinsic relationships (and back again)</span>
 
 ## Sample Tracking
 
