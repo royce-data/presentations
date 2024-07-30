@@ -2,7 +2,7 @@
 title: "Ampletracks"
 subtitle: "A free and open-source sample tracking web app"
 author: "Stavrina Dimosthenous"
-institute: Henry Royce Institute, University of Manchester
+institute: Henry Royce Institute
 date: today
 date-modified: 2024-07-01
 bibliography: _include/bibliographies/2024-07-26_general_intro_to_ampletracks.bib
@@ -65,11 +65,11 @@ format:
 :::{.r-stack}
 
 :::{.fragment .fade-in-then-out}
-!["Spreadsheet animation" by M. W. Toews is licensed under CC BY 4.0.](./images/ampletracks_presentation/Spreadsheet_animation.gif){.lightbox style="width:85%;"}
+!["Spreadsheet animation" by M. W. Toews is licensed under CC BY 4.0.](./images/ampletracks_presentation/Spreadsheet_animation.gif){.lightbox style="width:85%;" fig-align="center"}
 :::
 
 :::{.fragment}
-![Picture of a desk with a compartmentalised sample box](./images/ampletracks_presentation/samples_in_compartmentalised_box.png){.lightbox style="width:60%;"}
+![Picture of a desk with a compartmentalised sample box](./images/ampletracks_presentation/samples_in_compartmentalised_box.png){.lightbox style="width:60%;" fig-align="center"}
 :::
 
 :::
@@ -87,16 +87,16 @@ format:
 
 :::{.r-stack}
 
-:::{.fragment .fade-out}
-![](./images/ampletracks_presentation/midas_programme_grant_logo.png){.lightbox fig-align="center" style="margin-bottom:10%;"}
+:::{.fragment .fade-in-then-out}
+![](./images/ampletracks_presentation/midas_programme_grant_logo.png){.lightbox fig-align="center" style="margin-top:-10%%;"}
 :::
 
 :::{.fragment .fade-in-then-out}
-![](./images/ampletracks_presentation/HenryRoyceInstitute_MasterLogo_RGB_Grey.png){.lightbox fig-align="center" style="margin-bottom:10%;"}
+![](./images/ampletracks_presentation/HenryRoyceInstitute_MasterLogo_RGB_Grey.png){.lightbox fig-align="center" style="margin-top:-10%;"}
 :::
 
 :::{.fragment .fade-in-then-out}
-![](./images/ampletracks_presentation/rdm_lifecycle_royce.png){.lightbox fig-align="center" style="width:40%;" style="margin-bottom:20%;"}
+![](./images/ampletracks_presentation/rdm_lifecycle_royce.png){.lightbox fig-align="center" style="width:40%;" style="margin-top:-10%;"}
 :::
 
 :::
@@ -114,7 +114,7 @@ Perfect
 
 ## Ampletracks - philosophy
 
-![The Ampletracks GitHub repository](./images/ampletracks_presentation/ampletracks_github.png){.lightbox fig-align="center" style="width:60%;"}
+![The Ampletracks GitHub repository](./images/ampletracks_presentation/ampletracks_github.png){.lightbox fig-align="center" style="width:70%;"}
 
 ## Sample Tracking
 
@@ -135,7 +135,7 @@ Perfect
 - <strong>Record</strong> `parent` - `child` relationships (intrinsic)
 - <strong>Record</strong> to <strong>Record</strong> semantic relationships between different record types (extrinsic)
 - Graph view relationship visualisation
-  - <span class='font-size:smaller;'>Switch from intrinsic to extrinsic relationships (and back again)</span>
+  - Switch from intrinsic to extrinsic relationships
 
 ## Sample Tracking
 
