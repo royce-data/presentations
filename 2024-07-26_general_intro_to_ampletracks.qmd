@@ -1,0 +1,253 @@
+---
+title: "Ampletracks"
+subtitle: "A free and open-source sample tracking web app"
+author: "Stavrina Dimosthenous"
+institute: Henry Royce Institute, University of Manchester
+date: today
+date-modified: 2024-07-01
+bibliography: _include/bibliographies/2024-07-26_general_intro_to_ampletracks.bib
+csl: citation_styles/ieee-with-url.csl
+link-citations: true
+link-bibliography: true
+scrollable: false
+nocite: |
+  @*
+format:
+    revealjs:
+        toc: true
+        toc-title: "Overview"
+        toc-depth: 1
+        footer: <p xmlns:cc="http://creativecommons.org/ns#" >This work by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://orcid.org/0000-0002-6199-5094">Stavrina Dimosthenous</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+        html-q-tags: true
+        theme: [_include/styles/custom.scss, default]
+        incremental: true
+        fig-align: left
+        execute:
+          eval: false
+          message: false
+          warning: false
+          echo: false
+        code:
+          code-overflow: wrap
+        resources: /_include/*
+        include-in-header: 
+          file: sources.html
+---
+# Need
+## Organisation
+
+- I want to keep my samples organised
+- I want to keep track of my samples
+- I want to keep track of what I have done to my samples
+- I want to keep track of what my samples have produced
+
+
+## What usually happens
+
+:::{.r-stack}
+
+:::{.fragment .fade-in-then-out}
+![Picture of samples in a bag; courtesy of the author](./images/ampletracks_presentation/samples_in_bag.png){.lightbox style="width:40%;" fig-align="center"}
+:::
+
+:::{.fragment .fade-in-then-out}
+![Picture of a sample mounted with a labelled plastic sample bag, label is redacted; courtesy of the author](./images/ampletracks_presentation/mounted_sample_and_bag.png){.lightbox style="width:40%;" fig-align="center"}
+:::
+
+:::{.fragment}
+![Picture of a desk with unlabelled samples; courtesy of the author](./images/ampletracks_presentation/desk_with_samples.png){.lightbox style="width:50%;" fig-align="center"}
+:::
+
+:::
+
+## Solutions?
+
+:::{.r-stack}
+
+:::{.fragment .fade-in-then-out}
+!["Spreadsheet animation" by M. W. Toews is licensed under CC BY 4.0.](./images/ampletracks_presentation/Spreadsheet_animation.gif){.lightbox style="width:85%;"}
+:::
+
+:::{.fragment}
+![Picture of a desk with a compartmentalised sample box](./images/ampletracks_presentation/samples_in_compartmentalised_box.png){.lightbox style="width:60%;"}
+:::
+
+:::
+
+## What about Ampletracks?
+
+:::{.fragment}
+![](./images/ampletracks_presentation/samples_in_box_with_ampletracks_labelled.png){.lightbox style="width:70%;" fig-align="center"}
+:::
+
+# Ampletracks {style="display:hidden;"}
+
+
+## Our sponsors
+
+:::{.r-stack}
+
+:::{.fragment .fade-out}
+![](./images/ampletracks_presentation/midas_programme_grant_logo.png){.lightbox fig-align="center" style="margin-bottom:10%;"}
+:::
+
+:::{.fragment .fade-in-then-out}
+![](./images/ampletracks_presentation/HenryRoyceInstitute_MasterLogo_RGB_Grey.png){.lightbox fig-align="center" style="margin-bottom:10%;"}
+:::
+
+:::{.fragment .fade-in-then-out}
+![](./images/ampletracks_presentation/rdm_lifecycle_royce.png){.lightbox fig-align="center" style="width:40%;" style="margin-bottom:20%;"}
+:::
+
+:::
+
+## Ampletracks - philosophy
+
+- :::{.fragment .strike}
+Perfect
+:::
+- Good
+- Flexible and usable
+- Metadata field management and configuration
+- Record creation and editing
+- Free, open-source and shared
+
+## Ampletracks - philosophy
+
+![The Ampletracks GitHub repository](./images/ampletracks_presentation/ampletracks_github.png){.lightbox fig-align="center" style="width:75%;"}
+
+## Sample Tracking
+
+![](./images/ampletracks_presentation/ampletracks-logo.svg){.lightbox fig-align="center" style="margin-top:15%;"}
+
+## Sample Tracking
+
+- Web front-end to a configurable database
+- Built specifically for sample tracking
+  - Inheritance
+  - Relationships
+
+
+## Sample Tracking
+
+- Works with you to physically and digitally track samples
+- QR code label function to associate physical samples with records
+- <strong>Record</strong> `parent` - `child` relationships (intrinsic)
+- <strong>Record</strong> to <strong>Record</strong> semantic relationships between different record types (extrinsic)
+- Graph view relationship visualisation
+  - Switch from intrinsic to extrinsic relationships (and back again)
+
+## Sample Tracking
+
+![](./images/ampletracks_presentation/graph_view.gif){.lightbox fig-align="center" style="width:85%;"}
+
+## Sample Tracking
+
+- 14 data field types (and expanding) for modular and customisable <strong>Record</strong> types
+- Including
+  - Chemical formulae with built-in alloy at.% to wt.% converter
+- Fully mobile web-browser usable
+  
+  :::{.smaller .fragment}
+  *Some users prefer this!*
+  :::
+
+## Sample Tracking
+#### QR label printing
+
+- Choose a label size
+  - Current support:
+    - Avery Ultra Resistant Labels B7651 (65 labels per sheet)
+    - Avery Resistant Labels L6011 (27 labels per sheet)
+
+## Sample Tracking
+#### QR label printing
+
+- Print QR codes for records individually
+- Print multiple QR codes at once
+- Assign *reserved* QR codes to pre-existing records on scanning QR code
+- Create a record by scanning a QR code
+
+## Sample Tracking
+
+::: {layout-ncol=2}
+![](./images/ampletracks_presentation/label_2224.png){.lightbox style="border: 5px solid; border-color: #555555; margin-left: 0%;width:70%"}
+
+![](./images/ampletracks_presentation/label_2225.png){.lightbox style="border: 5px solid; border-color: #555555; margin-right: 0%;width:70%"}
+:::
+
+## Sample Tracking
+
+![](./images/ampletracks_presentation/labels_printed.jpg){.lightbox style="width:45%;" fig-align="center"}
+
+## Permissions and management {.smaller}
+
+- Each user can be assigned one or more roles
+- Each role is a bundle of permissions
+- Each permission says for a given entity:
+  - what is allowed: create, read, update or delete
+  - how wide ranging the permission is: `own`, `project`, `global`
+- To facilitate per-project level permissions each record is assigned to a single project and each user is assigned to one or more projects
+
+## Sample Tracking
+##### Ampletracks under the hood
+
+- Context agnostic front-end relational database
+  - Record type &#x224d; Table
+  - Form data field &#x224d; column
+
+## Try Ampletracks
+
+:::{.r-stack}
+
+:::{.r-fit-text style="margin-top:20%;" .fragment .fade-in-then-out}
+<a href="https://demo.ampletracks.com/iod//">https://demo.ampletracks.com/iod//</a>
+:::
+
+:::{.fragment}
+![](./images/ampletracks_presentation/instance_on_demand.gif){.lightbox fig-align="center" style="width:33%;"}
+:::
+:::
+
+## How to get Ampletracks {.smaller}
+
+<ol>
+<li>On your infrastucture (on-premise/cloud)
+  <ul class="small-text">
+    <li class="fragment">Need a virtual machine/server with Linux</li>
+    <li class="fragment">Need some IT support</li>
+    <li class="fragment">Might be able to save files directly</li>
+  </ul>
+</li>
+<li>Via the instance on Royce infrastucture
+  <ul class="small-text">
+    <li class="fragment">Already set-up and running</li>
+    <li class="fragment">Might need a private area depending on the work</li>
+    <li class="fragment">On University of Manchester infrastructure</li>
+    <li class="fragment">Cannot save large files directly</li>
+    <li class="fragment">Not on your premises</li>
+  </ul>
+</li>
+<li>Externally via cloud compute provider
+  <ul class="small-text">
+    <li class="fragment">Financial overhead</li>
+    <li class="fragment">Not on your premises (data storage policy issues?)</li>
+    <li class="fragment">Can save files directly if set up</li>
+  </ul>
+</li>
+</ol>
+
+## With thanks to
+
+:::{.nonincremental}
+Ashley Scarlett
+
+<br>
+
+Ramzy Abou-Zeid
+:::
+
+# References
+
+:::{#refs}
+:::

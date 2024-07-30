@@ -14,12 +14,18 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - href: 2023-07-12_how_to_rdmp.qmd
-        text: "RDM Planning"
-      - href: 2024-07-01_open_research_in_practice_actionable_materials.qmd
-        text: "Why Open Research?"
-      - href: 2023-07-12_why_git.qmd
-        text: "Why use Git?"
+      - text: "Open Research Talks"
+        menu:
+        - href: 2024-07-01_open_research_in_practice_actionable_materials.qmd
+          text: "Why Open Research?"
+      - text: "RDM Tool Talks"
+        menu:
+          - href: 2023-07-12_why_git.qmd
+            text: "Why use Git?"
+          - href: 2023-07-12_how_to_rdmp.qmd
+            text: "RDM Planning"
+          - href: 2024-07-26_general_intro_to_ampletracks.qmd
+            text: "Ampletracks"
 
 format:
   html:
