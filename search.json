@@ -11,42 +11,21 @@
     "href": "2024-07-01_open_research_in_practice_actionable_materials.html#definition",
     "title": "Open Research in Practice",
     "section": "Definition",
-    "text": "Definition\n\nA set of principles and practices in publicly funded research that make it more trasparent, accessible, inclusive, and collaborative, ensuring that research is freely available, under terms that enable attribution, reuse, redistribution and reproduction of the research and its underlying data and methods. [1], [2]"
-  },
-  {
-    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#not-only-publishing",
-    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#not-only-publishing",
-    "title": "Open Research in Practice",
-    "section": "Not only publishing",
-    "text": "Not only publishing\n\nOpen research extends beyond publishing open access to all aspects of your research and research outputs and outcomes"
+    "text": "Definition\n\nA set of principles and practices in publicly funded research that make it more transparent, accessible, inclusive, and collaborative, ensuring that research is freely available, under terms that enable attribution, reuse, redistribution and reproduction of the research and its underlying data and methods. [1], [2]"
   },
   {
     "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#aspects",
     "href": "2024-07-01_open_research_in_practice_actionable_materials.html#aspects",
     "title": "Open Research in Practice",
     "section": "Aspects",
-    "text": "Aspects\nOpen Research extends across:\n\nData\n\nPublishing your data openly\n\nMethodology\n\nMaking your methodologies reproducible and transparent\n\nOpen source\n\nCollaborative and community based development\n\nAcross software\nand hardware"
-  },
-  {
-    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#aspects-1",
-    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#aspects-1",
-    "title": "Open Research in Practice",
-    "section": "Aspects",
-    "text": "Aspects\nOpen Research extends across:\n\nOpen access\n\nEveryone should be able to access it, at no cost and with no geographical constraints\n\nPeer review\n\nMaking peer review transparent across all aspects\n\nEducational resources\n\nFree and accessible educational texts"
+    "text": "Aspects\nOpen Research extends across:\n\nOpen access \nData \nMethodology \nOpen source \nPeer review \nEducational resources"
   },
   {
     "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#what-can-i-apply-it-to",
     "href": "2024-07-01_open_research_in_practice_actionable_materials.html#what-can-i-apply-it-to",
     "title": "Open Research in Practice",
     "section": "What can I apply it to?",
-    "text": "What can I apply it to?\n\nOpen Access\n\nin peer-reviewed articles (and more)\neven if the journal is not open access\n\nOpen data\n\nPublishing your research data in online repositories\nMaking your research data openly and freely available upon publishing of research\n\nOpen software\n\nMaking your codebase free and open-source\n\nOpen hardware\n\nReleasing your hardware designs for anyone to make"
-  },
-  {
-    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#considerations",
-    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#considerations",
-    "title": "Open Research in Practice",
-    "section": "Considerations",
-    "text": "Considerations\n\nAs open as possible\nAs closed as necessary"
+    "text": "What can I apply it to?\n\nOpen Access \nOpen data  \nOpen software \nOpen hardware"
   },
   {
     "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#examples-in-materials-science",
@@ -63,25 +42,60 @@
     "text": "Examples from elsewhere\nOpen-source (and free-ish) hardware\nMars Rover [8]\n\n\n\n\n\nNASA JPL open-source Rover Project GitHub Repository https://github.com/nasa-jpl/open-source-rover\n\n\n\n\n\n\nNASA JPL open-source Rover Project Documentation"
   },
   {
-    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#what-is-in-it-for-me",
-    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#what-is-in-it-for-me",
+    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#examples-from-elsewhere-1",
+    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#examples-from-elsewhere-1",
     "title": "Open Research in Practice",
-    "section": "What is in it for me?",
-    "text": "What is in it for me?\n\n\nShared data increases the richness of work and drives attention\n\n\n\nDatasets published as supplementary information. Citations at 535 and 322 (Scopus), respectively, as at 2024-07-02 [9], [10]\n\n\n\n\nYou will benefit from\n\n\nusing open data\n\n\npublishing open data"
+    "section": "Examples from elsewhere",
+    "text": "Examples from elsewhere\nFree educational resources\n\n\n\n\n\n\n\nThink Bayes by Allen B. Downey (2 edition)"
   },
   {
-    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#what-is-in-it-for-me-1",
-    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#what-is-in-it-for-me-1",
+    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#examples-from-publishers",
+    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#examples-from-publishers",
     "title": "Open Research in Practice",
-    "section": "What is in it for me?",
-    "text": "What is in it for me?\n\n\nYour next role might depend on your open research practices\n\n\n\n\n\nDescription of a role advertised at the University of Manchester highlighting commitment to Open Research in person specifications"
+    "section": "Examples from publishers",
+    "text": "Examples from publishers\nOpen peer-review\n\n\n\n\n\n\n\nAn article on Materials Open Research"
   },
   {
     "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#do-i-have-to-do-open-research",
     "href": "2024-07-01_open_research_in_practice_actionable_materials.html#do-i-have-to-do-open-research",
     "title": "Open Research in Practice",
     "section": "Do I have to do open research?",
-    "text": "Do I have to do open research?\nOvercoming barriers\n\n\nYou do not have to but…\n\n\nit might be beneficial to start now\n\n\nLead by example"
+    "text": "Do I have to do open research?\nBarriers\n\nIt takes time\nIt needs to be perfect\nI might get scooped\n\nBut!\n\nThis does not contribute to my career advancement"
+  },
+  {
+    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#what-is-in-it-for-me",
+    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#what-is-in-it-for-me",
+    "title": "Open Research in Practice",
+    "section": "What is in it for me?",
+    "text": "What is in it for me?\nIt might be required\n\n\nThe EPSRC recognises the importance of sharing research data and the uniqueness of each project\n\n\n\n\n\nThe EPSRC policy framework on research data important principles"
+  },
+  {
+    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#considerations",
+    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#considerations",
+    "title": "Open Research in Practice",
+    "section": "Considerations",
+    "text": "Considerations\n\nAs open as possible\nAs closed as necessary"
+  },
+  {
+    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#what-is-in-it-for-me-1",
+    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#what-is-in-it-for-me-1",
+    "title": "Open Research in Practice",
+    "section": "What is in it for me?",
+    "text": "What is in it for me?\n\nShared data increases the richness of work and drives attention\n\n\n\nDatasets published as supplementary information. Citations at 535 and 322 (Scopus), respectively, as at 2024-07-02 [9], [10]"
+  },
+  {
+    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#what-is-in-it-for-me-2",
+    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#what-is-in-it-for-me-2",
+    "title": "Open Research in Practice",
+    "section": "What is in it for me?",
+    "text": "What is in it for me?\n\n\nYour next role might depend on your open research practices\n\n\n\n\n\nDescription of a role advertised at the University of Manchester highlighting commitment to Open Research in person specifications"
+  },
+  {
+    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#what-is-in-it-for-me-3",
+    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#what-is-in-it-for-me-3",
+    "title": "Open Research in Practice",
+    "section": "What is in it for me?",
+    "text": "What is in it for me?\n\n\nDo you have the rights to your research?\n\n\nGood for everyone\nGood for you"
   },
   {
     "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#what-can-you-do-right-now",
@@ -102,7 +116,28 @@
     "href": "2024-07-01_open_research_in_practice_actionable_materials.html#what-can-you-do-right-now-2",
     "title": "Open Research in Practice",
     "section": "What can you do right now?",
-    "text": "What can you do right now?\n\nHave a paper published closed access?\n\nNever too late to share the Author Accepted Manuscript on a public repository. Like:\n\nZenodo (general purpose)\nFigshare (general purpose)\nResearchGate\nCheck whether the journal you are publishing in has a pre-print to support Green Open Access\n\nAnd do not forget Creative Commons Licensing!"
+    "text": "What can you do right now?\n\nHave a paper published closed access?\n\nNever too late to share the Author Accepted Manuscript on a public repository. Like:\n\nZenodo (general purpose)\nFigshare (general purpose)\nResearchGate(!!)\nCheck whether the journal you are publishing in has a pre-print to support Green Open Access\n\nAnd do not forget Creative Commons Licensing!"
+  },
+  {
+    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#orcid",
+    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#orcid",
+    "title": "Open Research in Practice",
+    "section": "ORCID",
+    "text": "ORCID\n\n\nmetadata.creators.person_or_org.identifiers.identifier:0000-0002-6199-5094\n\n\n\n\n\nSearch for the author on Zenodo"
+  },
+  {
+    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#github",
+    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#github",
+    "title": "Open Research in Practice",
+    "section": "GitHub",
+    "text": "GitHub\n\n\n\nThe GitHub repository where this presentation is hosted"
+  },
+  {
+    "objectID": "2024-07-01_open_research_in_practice_actionable_materials.html#a-thought",
+    "href": "2024-07-01_open_research_in_practice_actionable_materials.html#a-thought",
+    "title": "Open Research in Practice",
+    "section": "A thought",
+    "text": "A thought\nFree books beget more free books in a way that conventional books don’t. Free books turn readers into writers.\n\nFree books transform readers into proof-readers, editors, anthologists, correspondents, contributors, collaborators, writers and authors.[11]"
   },
   {
     "objectID": "2023-07-12_how_to_rdmp.html#what-is-a-data-management-plan",
