@@ -126,7 +126,7 @@ Open Research extends across:
 ## Examples from elsewhere {.smaller}
 ### Free educational resources
 
-![Think Bayes by Allen B. Downey (*2 edition*)](./images/open_research/free_educational_resource_think_bayes_2.png){.lightbox fig-align="center" width="50%"}
+![Think Bayes by Allen B. Downey (*2 edition*)](./images/open_research/free_educational_resource_think_bayes_2.png){.lightbox fig-align="center" width="45%"}
 
 ## Examples from publishers {.smaller}
 ### Open peer-review
@@ -155,7 +155,7 @@ and the uniqueness of each project
 :::
 
 ::: {.fragment}
-![The EPSRC policy framework on research data important principles](./images/open_research/epsrc_policy_framework.png)
+![The EPSRC policy framework on research data important principles](./images/open_research/epsrc_policy_framework.png){.lightbox width="90%"}
 :::
 
 :::
@@ -282,7 +282,7 @@ metadata.creators.person_or_org.identifiers.identifier:0000-0002-6199-5094
 
 # Thank you {style="text-align:center;"}
 
-# References{ style="font-size:17px;"}
+# References{ style="font-size:15px;"}
 
 :::{#refs}
 :::
