@@ -21,6 +21,7 @@ format:
         html-q-tags: true
         theme: [_include/styles/custom.scss, default]
         incremental: true
+        slide-number: c
         execute:
           eval: false
           message: false
@@ -35,67 +36,51 @@ format:
 # What is Open Research
 ## Definition
 ::: {.fragment}
-A set of principles and practices in publicly funded research that make it more trasparent, accessible, inclusive, and collaborative, ensuring that research is freely available, under terms that enable attribution, reuse, redistribution and reproduction of the research and its underlying data and methods. [@foesterterm7;@fosterterm100]
+A set of principles and practices in publicly funded research that make it more transparent, accessible, inclusive, and collaborative, ensuring that research is freely available, under terms that enable attribution, reuse, redistribution and reproduction of the research and its underlying data and methods. [@foesterterm7;@fosterterm100]
 :::
 
-## Not only publishing
+<!-- ## Not only publishing
 
 :::{.fragment style="margin-top: 15%; font-size: 55px;"}
 Open research extends beyond publishing open access to all aspects of your research and research outputs and outcomes
-:::
-
-## Aspects {.smaller}
-Open Research extends across:
-
-- Data
-  - Publishing your data openly
-- Methodology
-  - Making your methodologies reproducible and transparent
-- Open source
-  - Collaborative and community based development
-    - Across software
-    - and hardware
-
-
+::: -->
 
 ## Aspects {.smaller}
 Open Research extends across:
 
 - Open access
-  - Everyone should be able to access it, at no cost and with no geographical constraints
+<!-- - Everyone should be able to access it, at no cost and with no geographical constraints -->
+- Data
+  <!-- - Publishing your data openly -->
+- Methodology
+  <!-- - Making your methodologies reproducible and transparent -->
+- Open source
+  <!-- - Collaborative and community based development
+    - Across software
+    - and hardware -->
 - Peer review
-  - Making peer review transparent across all aspects
+  <!-- - Making peer review transparent across all aspects -->
 - Educational resources
-  - Free and accessible educational texts
-
+  <!-- - Free and accessible educational texts -->
 
 ## What can I apply it to?{.smaller}
 
 - Open Access
-  - in peer-reviewed articles (and more) 
-  - even if the journal is not open access
+  <!-- - in peer-reviewed articles (and more) 
+  - even if the journal is not open access -->
 - Open data
-  - Publishing your research data in online repositories
-  - Making your research data openly and freely available upon publishing of research
+  <!-- - Publishing your research data in online repositories -->
+  <!-- - Making your research data openly and freely available upon publishing of research -->
 - Open software
-  - Making your codebase free and open-source
+  <!-- - Making your codebase free and open-source -->
 - Open hardware
-  - Releasing your hardware designs for anyone to make
-
-
-## Considerations
-
-::: {.r-fit-text}
-As open as possible
-
-As closed as necessary
-:::
+  <!-- - Releasing your hardware designs for anyone to make -->
 
 # Open Research Examples
 ## Examples in Materials Science {.smaller}
 
 ::: {.r-stack}
-:::{.fragment .fade-out}
+:::{.fragment .fade-in-then-out}
 ### Software
 :::: {.columns}
 
@@ -138,27 +123,58 @@ As closed as necessary
 :::
 
 ::::
+## Examples from elsewhere {.smaller}
+### Free educational resources
+
+![Think Bayes by Allen B. Downey (*2 edition*)](./images/open_research/free_educational_resource_think_bayes_2.png){.lightbox fig-align="center" width="50%"}
+
+## Examples from publishers {.smaller}
+### Open peer-review
+
+![An article on Materials Open Research](./images/open_research/materials_open_research_article.png){.lightbox fig-align="center" width="60%"}
+
 # Why Open Research
+
+## Do I have to do open research?
+### Barriers
+
+1. It takes time
+2. <span class="fragment strike">It needs to be perfect</span>
+3. <span class="fragment strike">I might get scooped</span>
+   - But!
+4. <span class="fragment strike">This does not contribute to my career advancement</span>
+
+## What is in it for me?
+### It might be required
+
+::: {.r-stack}
+
+::: {.fragment .fade-in-then-out}
+The EPSRC recognises the importance of sharing research data
+and the uniqueness of each project
+:::
+
+::: {.fragment}
+![The EPSRC policy framework on research data important principles](./images/open_research/epsrc_policy_framework.png)
+:::
+
+:::
+
+## Considerations
+
+::: {.r-fit-text}
+As open as possible
+
+As closed as necessary
+:::
 
 ## What is in it for me?
 
-::: {.r-stack}
-::: {.fragment .fade-out}
+::: {.fragment}
 Shared data increases the richness of work and drives attention
 
 ![Datasets published as supplementary information. Citations at 535 and 322 (Scopus), respectively, as at 2024-07-02 [@Olmsted_2009_1;@Olmsted_2009_2]](./images/open_research/published_work_grain_boundaries.png)
 :::
-::: {.fragment .r-fit-text .center .fade-in-then-out}
-You will benefit from
-:::
-::: {.fragment .r-fit-text .center .fade-in-then-out}
-***using*** open data
-:::
-::: {.fragment .r-fit-text .center}
-***publishing*** open data
-:::
-:::
-
 
 ## What is in it for me?
 ::: {.r-stack}
@@ -170,21 +186,35 @@ Your next role might depend on your open research practices
 :::
 :::
 
-## Do I have to do open research?
-### Overcoming barriers
-
+## What is in it for me?
 
 ::: {.r-stack style="margin-top:10%;"}
-::: {.r-fit-text .fragment .fade-out}
-You do not ***have to*** but...
-:::
+
 ::: {.r-fit-text .fragment .fade-in-then-out}
-it might be beneficial to start now
+Do you have the **rights** to your research?
 :::
+
 ::: {.r-fit-text .fragment}
-***Lead by example***
+Good for **everyone**
+
+Good for **you**
 :::
+
 :::
+
+<!-- ## What is in it for me?
+
+::: {.r-stack}
+::: {.fragment .r-fit-text .center .fade-in-then-out}
+You will benefit from
+:::
+::: {.fragment .r-fit-text .center .fade-in-then-out}
+***using*** open data
+:::
+::: {.fragment .r-fit-text .center}
+***publishing*** open data
+:::
+::: -->
 
 # How to do Open Research
 ## What can you do right now? {.smaller}
@@ -213,9 +243,42 @@ it might be beneficial to start now
    - Never too late to share the *Author Accepted Manuscript* on a public repository. Like:
      1. Zenodo (general purpose)
      2. Figshare (general purpose)
-     3. ResearchGate
+     3. ResearchGate(!!)
      4. Check whether the journal you are publishing in has a pre-print to support *Green Open Access*
     - And do not forget Creative Commons Licensing! 
+
+
+## ORCID
+
+::: {.r-stack}
+
+:::{.fragment .fade-in-then-out}
+```
+metadata.creators.person_or_org.identifiers.identifier:0000-0002-6199-5094
+```
+:::
+
+::: {.fragment}
+
+![Search for the author on Zenodo](./images/open_research/orcid_search_zenodo.png){.lightbox}
+:::
+
+
+:::
+
+## GitHub
+
+![The GitHub repository where this presentation is hosted](./images/open_research/royce-data_presentations_github.png){.lightbox width="65%"}
+
+## A thought
+
+<q>Free books beget more free books in a way that conventional books don't. Free books turn readers into writers.</q>
+
+<br>
+
+<q>Free books transform readers into proof-readers, editors, anthologists, correspondents, contributors, collaborators, writers and authors.[@Downey]</q>
+
+<!-- Open research is transformative -->
 
 # Thank you {style="text-align:center;"}
 
