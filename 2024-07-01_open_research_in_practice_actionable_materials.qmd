@@ -45,7 +45,7 @@ A set of principles and practices in publicly funded research that make it more 
 Open research extends beyond publishing open access to all aspects of your research and research outputs and outcomes
 ::: -->
 
-## Aspects {.smaller}
+## Aspects and application {.smaller}
 Open Research extends across:
 
 - Open access
@@ -63,17 +63,17 @@ Open Research extends across:
 - Educational resources
   <!-- - Free and accessible educational texts -->
 
-## What can I apply it to?{.smaller}
+<!-- ## What can I apply it to?{.smaller} -->
 
-- Open Access
+<!-- - Open Access -->
   <!-- - in peer-reviewed articles (and more) 
   - even if the journal is not open access -->
-- Open data
+<!-- - Open data -->
   <!-- - Publishing your research data in online repositories -->
   <!-- - Making your research data openly and freely available upon publishing of research -->
-- Open software
+<!-- - Open software -->
   <!-- - Making your codebase free and open-source -->
-- Open hardware
+<!-- - Open hardware -->
   <!-- - Releasing your hardware designs for anyone to make -->
 
 # Open Research Examples
@@ -219,23 +219,21 @@ You will benefit from
 # How to do Open Research
 ## What can you do right now? {.smaller}
 
-1. Register for ORCiD
+1. Register for ORCID
 2. Share your presentations openly
-   - You can do this on Zenodo
-   - Or any repository (this particular presentation is hosted on GitHub)
+   - In a public repository
 3. Add a license to your presentation!
-   - You can do this using the:
-     - Creative Commons License Chooser <https://chooser-beta.creativecommons.org/>
-     - Within Zenodo if you choose that route
-   - So that people can reuse and cite your work
+   - Creative Commons License Chooser
+     - <https://chooser-beta.creativecommons.org/>
+   - Within Zenodo if you choose that route 
 
 ## What can you do right now? {.smaller}
 
 4. Share your code and scripts on GitHub (with appropriate reuse licensing)
    - With accessible and rich documentation (or just good enough so that anyone can understand!) 
      - They might just help someone else
-     - Need help choosing a software license?
-       - <https://choosealicense.com/>
+   - Need help choosing a software license?
+     - <https://choosealicense.com/>
 
 ## What can you do right now? {.smaller}
 
@@ -258,11 +256,15 @@ metadata.creators.person_or_org.identifiers.identifier:0000-0002-6199-5094
 ```
 :::
 
-::: {.fragment}
+::: {.fragment .fade-in-then-out}
 
 ![Search for the author on Zenodo](./images/open_research/orcid_search_zenodo.png){.lightbox}
 :::
 
+::: {.fragment}
+
+![The author's ORCID profile](./images/open_research/orcid_profile.png){.lightbox width="45%"}
+:::
 
 :::
 
@@ -280,9 +282,21 @@ metadata.creators.person_or_org.identifiers.identifier:0000-0002-6199-5094
 
 <!-- Open research is transformative -->
 
-# Thank you {style="text-align:center;"}
+## {id="thank-you"}
 
-# References{ style="font-size:15px;"}
+::: {.r-stack}
+
+::: {.r-fit-text style="text-align:center;margin-top:10%;" .fragment .fade-in-then-out}
+Thank you
+:::
+
+::: {.r-fit-text style="text-align:center;margin-top:10%;" .fragment}
+Questions?
+:::
+
+:::
+
+## References{ style="font-size:15px;"}
 
 :::{#refs}
 :::
