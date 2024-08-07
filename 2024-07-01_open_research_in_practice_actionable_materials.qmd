@@ -80,8 +80,10 @@ Open Research extends across:
 ## Examples in Materials Science {.smaller}
 
 ::: {.r-stack}
+
 :::{.fragment .fade-in-then-out}
 ### Software
+
 :::: {.columns}
 
 ::: {.column width="45%"}
@@ -93,13 +95,16 @@ Open Research extends across:
 
 ::::
 :::
+
 ::: {.fragment}
 ### Datasets
+
 :::: {.columns}
 
 ::: {.column width="45%"}
 ![Materials properties dataset [@Gorsse_2018;@Gorsse_2020]](./images/open_research/data_in_brief_1.png){.lightbox}
 :::
+
 ::: {.column width="45%"}
 ![Materials properties dataset [@Machaka_2021]](./images/open_research/dataset_2.png){.lightbox}
 :::
@@ -126,7 +131,17 @@ Open Research extends across:
 ## Examples from elsewhere {.smaller}
 ### Free educational resources
 
+::: {.r-stack}
+
+::: {.fragment .fade-in-then-out}
 ![Think Bayes by Allen B. Downey (*2 edition*)](./images/open_research/free_educational_resource_think_bayes_2.png){.lightbox fig-align="center" width="45%"}
+:::
+
+::: {.fragment}
+![The Version Control with Git Software Carpentry](./images/open_research/software_carpentry_git.png){.lightbox fig-align="center" width="60%"}
+:::
+
+:::
 
 ## Examples from publishers {.smaller}
 ### Open peer-review
