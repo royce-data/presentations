@@ -1,0 +1,217 @@
+---
+title: "Research Data Management"
+subtitle: "For short research projects"
+author: "Stavrina Dimosthenous"
+institute: Henry Royce Institute, University of Manchester
+date: today
+date-modified: 2024-10-21
+csl: citation_styles/ieee-with-url.csl
+link-citations: true
+link-bibliography: true
+scrollable: false
+nocite: |
+  @*
+format:
+    revealjs:
+        toc: true
+        toc-title: "Overview"
+        toc-depth: 1
+        footer: <p xmlns:cc="http://creativecommons.org/ns#" >This work by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://orcid.org/0000-0002-6199-5094">Stavrina Dimosthenous</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+        html-q-tags: true
+        theme: [_include/styles/custom.scss, default]
+        incremental: true
+        slide-number: c
+        execute:
+          eval: false
+          message: false
+          warning: false
+          echo: false
+        code:
+          code-overflow: wrap
+        resources: /_include/*
+        include-in-header: 
+          file: sources.html
+        pdf-separate-fragments: true
+---
+# Why we need research data management (RDM) practices
+
+
+## The research data lifecycle
+
+![](./images/rdm_images/rdm_lifecycle_royce.png){fig-align="center" width="50%"}
+
+
+## Why do we need data in Materials?
+
+- Inform decision making in research
+- Confirm experiments/models
+- Inform experimental design
+- Fit materials simulation models
+- Build ML models
+- Avoid repetition
+- Retain knowledge
+
+## Where does research data end up?
+
+- On a hard drive somewhere
+- In the cloud
+- On a networked directory
+- In a research data archive
+- A repository (if openly published)
+
+
+## Are those locations so bad?
+
+::: {.r-stack}
+
+::: {.r-fit-text style="margin-top:10%;" .fragment .fade-out}
+Not necessarily
+:::
+
+::: {.r-fit-text style="margin-top:-10%;" .fragment .fade-in-then-out}
+But!
+:::
+
+::: {style="margin-top:0%;"}
+- Where can I find the data?
+  - Where will my supervisor and colleagues be able to find it?
+- Some of these locations are better than others depending on the project needs
+:::
+
+:::
+
+
+## {id="finding-using"}
+
+:::{.r-stack style="margin-top:15%;"}
+
+:::{.fragment .fade-out .r-fit-text}
+If I can't find it
+:::
+
+:::{.fragment .fade-in-then-out .r-fit-text}
+I can't use it
+:::
+
+:::{.fragment .r-fit-text}
+What happens next?
+:::
+
+:::
+
+## Using the data
+
+- Can we understand it?
+  - Will the colleagues that will continue the work be able to understand it?
+  - Will my supervisor be able to understand it?
+
+## What we need
+
+1. We need to make data FINADABLE
+   - By informing our research group or supervisor of where it is
+2. We want to enable USE and REUSE
+   - By documenting what the data is and leaving a description 
+
+## How?
+
+:::{.r-stack style="margin-top:15%;"}
+
+:::{.fragment .fade-out .r-fit-text}
+We know what we want to do
+:::
+
+:::{.fragment .fade-in .r-fit-text}
+How can we achieve this?
+:::
+
+:::
+
+# Your MSc research project
+
+## Timeframe
+
+::: {.r-stack}
+
+:::{.fragment .fade-out .r-fit-text style="margin-top:10%;"}
+3 - 18  months
+:::
+
+:::{.fragment .fade-in}
+![](./images/rdm_images/rdm_lifecycle_royce.png){fig-align="center" width="50%"}
+:::
+
+:::
+
+# RDM practices
+
+## RDM practices for everyone
+
+- One size does not fit all
+- The "best" RDM practice is
+  - One that addresses the needs of the (research) group
+  - One that can be implemented for the (research) group
+
+## 
+
+## RDM practices for MSc in materials {.smaller}
+
+- Catalogue your samples
+- Use a digital file naming system that
+  - is **consistent**
+  - allows you to find data associated with each
+  - Example: `yyyy-mm-dd_sample_name_characterisation_technique_yourinitials_supervisorsinitials`{style="font-size: 60%;"}
+- Use both a digital cataloguing system (spreadsheets are fine) and a laboratory notebook
+- Document everything
+  - A README style file that explains
+    - The directory structure
+    - The type of data stored in each directory
+
+## {id="how-we-work"}
+
+:::{.r-stack style="margin:15%;"}
+
+:::{.fragment .fade-out .r-fit-text}
+Consistency
+:::
+
+:::{.fragment .fade-in .r-fit-text}
+Working with your research group
+:::
+
+:::
+
+## Some questions to ask your supervisor {.smaller}
+
+- [ ] How should I store and label my samples?
+- [ ] Where should I store my data?
+  - Shared storage areas, e.g. OneDrive, Research data storage, Dropbox (UoM)? 
+- [ ] Do you have a naming convention you want for the data?
+- [ ] What directory structure do you want me to use?
+- [ ] What instructions do I need to leave for the person continuing this work?
+
+## What happens next?
+
+- You do not own the the data
+  - The University of Manchester does
+  - Delete the data from any personal devices
+- Is there scope to publish this research? 
+  - Export controls approval (supervisor)
+
+
+## {id="thank-you"}
+
+::: {.r-stack}
+
+::: {.r-fit-text style="text-align:center;margin-top:10%;" .fragment .fade-in-then-out}
+Thank you
+:::
+
+::: {.r-fit-text style="text-align:center;margin-top:10%;" .fragment}
+Questions?
+:::
+
+:::
+
+## Resources
+
+[How to write a RMDP for Materials](https://royce-data.github.io/royce-data-handbook/rdm/rdmp-guide.html){.r-fit-text style="margin-top:20%;"}
