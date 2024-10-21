@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://royce-data.github.io/presentations/index.html</loc>
-    <lastmod>2024-08-07T10:40:00.296Z</lastmod>
-  </url>
-  <url>
-    <loc>https://royce-data.github.io/presentations/2024-07-01_open_research_in_practice_actionable_materials.html</loc>
-    <lastmod>2024-08-07T10:40:00.056Z</lastmod>
-  </url>
-  <url>
-    <loc>https://royce-data.github.io/presentations/2023-07-12_how_to_rdmp.html</loc>
-    <lastmod>2024-08-07T10:40:00.056Z</lastmod>
-  </url>
-  <url>
-    <loc>https://royce-data.github.io/presentations/2023-07-12_why_git.html</loc>
-    <lastmod>2024-08-07T10:40:00.056Z</lastmod>
+    <lastmod>2024-10-21T14:43:58.688Z</lastmod>
   </url>
   <url>
     <loc>https://royce-data.github.io/presentations/2024-07-26_general_intro_to_ampletracks.html</loc>
-    <lastmod>2024-08-07T10:40:00.056Z</lastmod>
+    <lastmod>2024-10-21T14:43:58.448Z</lastmod>
+  </url>
+  <url>
+    <loc>https://royce-data.github.io/presentations/2023-07-12_why_git.html</loc>
+    <lastmod>2024-10-21T14:43:58.448Z</lastmod>
+  </url>
+  <url>
+    <loc>https://royce-data.github.io/presentations/2023-07-12_how_to_rdmp.html</loc>
+    <lastmod>2024-10-21T14:43:58.448Z</lastmod>
+  </url>
+  <url>
+    <loc>https://royce-data.github.io/presentations/2024-07-01_open_research_in_practice_actionable_materials.html</loc>
+    <lastmod>2024-10-21T14:43:58.448Z</lastmod>
+  </url>
+  <url>
+    <loc>https://royce-data.github.io/presentations/2024-09-05_rdm_for_short_research_projects.html</loc>
+    <lastmod>2024-10-21T14:43:58.448Z</lastmod>
   </url>
 </urlset>
