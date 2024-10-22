@@ -55,11 +55,17 @@ format:
 - Do you need an extra version just for collaborators?
 
 ## However...
-:::{.fade-in-then-out}
-![](images/why_git_images/latex_paper_commented.png){style="display:block;height:60%;width:60%;margin:0 auto;"}
+:::{.r-stack}
+
+:::{.fragment .fade-out}
+![Are you bloating your file?](images/why_git_images/latex_paper_commented.png){style="display:block;height:60%;width:60%;margin:0 auto;"}
 :::
 
-- Are you bloating your file?
+:::{.r-fit-text .fragment .fade-in-then-out}
+You can always roll back!
+:::
+
+:::
 
 ## Using Git locally
 - One file
@@ -78,11 +84,12 @@ format:
   - From colleagues
   - From the community
 - Share your work
+- Get recognition(?)
 </div>
 :::
 
 ## Why I use Git?
 
 - All reasons discussed
-- ***I get to work on one common repository on different systems without having to carry a physical drive with me***
+- ***I get to work on one common repository on different systems without having to carry a physical storage drive with me***
 
