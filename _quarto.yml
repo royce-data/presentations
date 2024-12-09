@@ -18,6 +18,8 @@ website:
         menu:
         - href: 2024-07-01_open_research_in_practice_actionable_materials.qmd
           text: "Why Open Research?"
+        - href: 2024-12-11_open_research_in_practice_actionable_materials_short_form.qmd
+          text: Practicable & Actionable Open Research
       - text: "RDM Tool Talks"
         menu:
           - href: 2023-07-12_why_git.qmd

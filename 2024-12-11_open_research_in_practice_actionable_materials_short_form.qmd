@@ -1,0 +1,197 @@
+---
+title: "Open Research in Practice"
+subtitle: "Actionable tips for Materials Scientists"
+author: "Stavrina Dimosthenous"
+institute: Henry Royce Institute, University of Manchester
+date: today
+date-modified: 2024-07-01
+bibliography: _include/bibliographies/2024-07-01_open_research.bib
+csl: citation_styles/ieee-with-url.csl
+link-citations: true
+link-bibliography: true
+scrollable: false
+nocite: |
+  @*
+format:
+    revealjs:
+        toc: true
+        toc-title: "Overview"
+        toc-depth: 1
+        footer: <p xmlns:cc="http://creativecommons.org/ns#" >This work by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://orcid.org/0000-0002-6199-5094">Stavrina Dimosthenous</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+        html-q-tags: true
+        theme: [_include/styles/custom.scss, default]
+        incremental: true
+        slide-number: c
+        execute:
+          eval: false
+          message: false
+          warning: false
+          echo: false
+        code:
+          code-overflow: wrap
+        resources: /_include/*
+        include-in-header: 
+          file: sources.html
+        pdf-separate-fragments: true
+---
+# What is Open Research
+## Definition
+::: {.fragment}
+A set of principles and practices in publicly funded research that make it more transparent, accessible, inclusive, and collaborative, ensuring that research is freely available, under terms that enable attribution, reuse, redistribution and reproduction of the research and its underlying data and methods. [@foesterterm7;@fosterterm100]
+:::
+
+<!-- ## Not only publishing
+
+:::{.fragment style="margin-top: 15%; font-size: 55px;"}
+Open research extends beyond publishing open access to all aspects of your research and research outputs and outcomes
+::: -->
+
+## Aspects and application {.smaller}
+Open Research extends across:
+
+- Open access
+<!-- - Everyone should be able to access it, at no cost and with no geographical constraints -->
+- Data
+  <!-- - Publishing your data openly -->
+- Methodology
+  <!-- - Making your methodologies reproducible and transparent -->
+- Open source
+  <!-- - Collaborative and community based development
+    - Across software
+    - and hardware -->
+- Peer review
+  <!-- - Making peer review transparent across all aspects -->
+- Educational resources
+  <!-- - Free and accessible educational texts -->
+
+<!-- ## What can I apply it to?{.smaller} -->
+
+<!-- - Open Access -->
+  <!-- - in peer-reviewed articles (and more) 
+  - even if the journal is not open access -->
+<!-- - Open data -->
+  <!-- - Publishing your research data in online repositories -->
+  <!-- - Making your research data openly and freely available upon publishing of research -->
+<!-- - Open software -->
+  <!-- - Making your codebase free and open-source -->
+<!-- - Open hardware -->
+  <!-- - Releasing your hardware designs for anyone to make -->
+
+# Open Research Examples
+## Examples in Materials Science {.smaller}
+
+::: {.r-stack}
+
+:::{.fragment .fade-in-then-out}
+### Software
+
+:::: {.columns}
+
+::: {.column width="45%"}
+![MTEX free and open-source MATLAB toolbox for texture analysis [@Bachmann_2010]](./images/open_research/mtex_package.png){.lightbox}
+:::
+::: {.column width="45%"}
+![MatFlow, a framework for running reproducible computational materials workflows written in Python [@https://doi.org/10.5281/zenodo.12545528]](./images/open_research/matflow_github.png){.lightbox}
+:::
+
+::::
+:::
+
+::: {.fragment}
+### Datasets
+
+:::: {.columns}
+
+::: {.column width="45%"}
+![Materials properties dataset [@Gorsse_2018;@Gorsse_2020]](./images/open_research/data_in_brief_1.png){.lightbox}
+:::
+
+::: {.column width="45%"}
+![Materials properties dataset [@Machaka_2021]](./images/open_research/dataset_2.png){.lightbox}
+:::
+
+::::
+:::
+:::
+
+## Examples from publishers {.smaller}
+### Open peer-review
+
+![An article on Materials Open Research](./images/open_research/materials_open_research_article.png){.lightbox fig-align="center" width="60%"}
+
+# Why Open Research
+
+## Do I have to do open research?
+### Barriers
+
+1. It takes time
+2. <span class="fragment strike">It needs to be perfect</span>
+3. <span class="fragment strike">I might get scooped</span>
+   - But!
+4. <span class="fragment strike">This does not contribute to my career advancement</span>
+
+## Considerations
+
+::: {.r-fit-text}
+As open as possible
+
+As closed as necessary
+:::
+
+## What is in it for me?
+
+::: {.fragment}
+Shared data increases the richness of work and drives attention
+
+![Datasets published as supplementary information. Citations at 535 and 322 (Scopus), respectively, as at 2024-07-02 [@Olmsted_2009_1;@Olmsted_2009_2]](./images/open_research/published_work_grain_boundaries.png)
+:::
+
+## What is in it for me?
+::: {.r-stack}
+::: {.fragment .fade-out .r-fit-text}
+Your next role might depend on your open research practices
+:::
+::: {.fragment style="width:65%;"}
+![Description of a role advertised at the University of Manchester highlighting commitment to Open Research in person specifications](./images/open_research/role_description_open_research.png)
+:::
+:::
+
+## What is in it for me?
+
+
+::: {.r-fit-text .fragment}
+Good for **everyone**
+
+Good for **you**
+:::
+
+
+# How to do Open Research
+## What can you do right now? {.smaller}
+
+1. Register for ORCID
+2. Share your presentations openly
+3. Add a license to your presentation!
+4. Share your code and scripts on GitHub (with appropriate reuse licensing)
+5. Share your *Author Accepted Manuscript* on a public repository
+
+<!-- Open research is transformative -->
+
+## {id="thank-you"}
+
+::: {.r-stack}
+
+::: {.r-fit-text style="text-align:center;margin-top:10%;" .fragment .fade-in-then-out}
+Thank you
+:::
+
+::: {.r-fit-text style="text-align:center;margin-top:10%;" .fragment}
+Questions?
+:::
+
+:::
+
+## References{ style="font-size:15px;"}
+
+:::{#refs}
+:::
